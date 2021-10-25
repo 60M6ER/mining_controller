@@ -8,3 +8,13 @@
 log/
 
 *.log
+
+mining_controller.properties
+
+*.bat
+
+config_example
+
+*.exe
+
+OhGodAnETHlargementPill-r2
