@@ -62,7 +62,7 @@ public class GUI extends JFrame implements ActionListener, Thread.UncaughtExcept
         setResizable(false);
         setTitle(APPLICATION_NAME);
         this.addWindowListener(this);
-        Image icon = Toolkit.getDefaultToolkit().getImage(getClass().getResource("../static/img/pngegg.png"));
+        Image icon = Toolkit.getDefaultToolkit().getImage(getClass().getResource("/static/img/pngegg.png"));
         this.setIconImage(icon);
         //Трэй
         if (SystemTray.isSupported()) {
